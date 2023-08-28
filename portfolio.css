@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&family=Roboto+Slab:wght@200;500&display=swap');
+body{
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.myname{
+	font-size: 20px;
+	font-family: 'Bebas Neue', sans-serif;
+   font-family: 'Lilita One', cursive;
+  font-family: 'Qwitcher Grypen', cursive;
+   font-family: 'Roboto Slab', serif;
+	color: #644b7d;
+	font-weight: bolder;
+	
+}
+.mymenu{
+	font-size: 20px;
+	color: black;
+	font-weight: bolder;
+}
+.mymenu:hover
+{
+	color: #75a85d;
+}
+.navbar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+
+}
+.maindiv{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+/*	background-color: #e8de92;*/
+	margin-top: 5%;
+/*	height: 80%;*/
+
+}
+.home{
+	height: 900px;
+	margin-top: 0px;
+	background-image: url('https://img.freepik.com/free-photo/smiling-female-student-writing-essay-sitting-with-laptop-floor_176420-20218.jpg?w=2000');
+	background-position:right;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-left: 20%;
+	margin-bottom: 0px;
+
+
+
+}
+html
+{
+scroll-behavior: smooth;
+}
+.dv{
+	width: 100%;
+	padding-top: 200px;
+}
+.btn{
+	margin:0px;
+}
+.btn button
+{
+	height: 30px;
+	width: 80px;
+	border: none;
+	background-color: #e8de92;
+	border-radius: 10px;
+	color: blueviolet;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.btn button:hover{
+	background-color: white;
+	color: #ac72cf;
+	border: 2px solid #e8de92;
+	transform: scale(1.5);
+}
+.info{
+	font-family: 'Qwitcher Grypen', cursive;
+ font-family: 'Roboto Slab', serif;
+ font-size: 24px;
+}
+.infodiv{
+	font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto Slab', serif;
+
+}
+.info1{
+	font-family: 'Qwitcher Grypen', cursive;
+ font-family: 'Roboto Slab', serif;
+}
+.infoname{
+	font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto Slab', serif;
+color: #ad6d4c;
+}
+.imageabout{
+	height: 100%;
+	margin-left: 0px;
+	padding-left: 0px;
+	width: 90%;
+
+
+}
+.imageabout:hover{
+	       border-radius: 750px;
+			transition-duration: 1s;
+			border-radius: 100%;
+			border: 4px solid blueviolet;
+			
+
+}
+.aboutdiv{
+	margin-top: 0px;
+
+}
+.aboutme{
+	line-height: 50px;
+			letter-spacing: 2px;
+			word-spacing: 10px;
+			text-align: center;
+			font-weight: bolder;
+			color: #f71661;
+}
+.about{
+	font-family: 'Bebas Neue', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto Slab', serif;
+background-color: #eec1f5;
+height: 900px;
+margin-top: 10%;
+
+}
+.library{
+	height: 30%;
+	width: 30%;
+	margin-left: auto;
+  margin-right: auto;
+}
+.card1{
+	font-family: 'Bebas Neue', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto Slab', serif;
+text-align: center;
+}
+.cardtext{
+	font-family: monospace;
+	font-weight: bolder;
+	text-align: justify;
+
+
+}
+.calci{
+	height: 30%;
+	width: 30%;
+	margin-left: auto;
+  margin-right: auto;
+}
+.calculatortitle{
+	font-family: 'Bebas Neue', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto Slab', serif;
+text-align: center;
+
+}
+.calculatortext{
+	font-family: monospace;
+	font-weight: bolder;
+	text-align: justify;
+
+
+}
+.hospital{
+	height: 30%;
+	width: 30%;
+	margin-left: auto;
+  margin-right: auto;
+
+}
+.hospitaltitle{
+	font-family: 'Bebas Neue', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto Slab', serif;
+text-align: center;
+
+
+}
+.hospitaldes{
+	font-family: monospace;
+	font-weight: bolder;
+	text-align: justify;
+
+}
+.contact{
+	background-color: #a0bda8;
+	height: 700px;
+	margin-top: 10%;
+
+
+}
+.contactin{
+	margin-top: 5%;
+}
+.user{
+	height: 7%;
+	width: 7%;
+	border-radius: 50px;
+
+}
+.contact1{
+	margin-top: 3%;
+	width: 50%;
+}
+.text-center{
+	font-family: 'Bebas Neue', sans-serif;
+font-family: 'Changa', sans-serif;
+font-family: 'Exo', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Phudu', cursive;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card{
+	margin-top: 20px;
+	background-color: #e1d7f5;
+}
+.pr{
+	font-weight: bolder;
+	color: #523c41;
+	font-family: 'Bebas Neue', sans-serif;
+font-family: 'Changa', sans-serif;
+font-family: 'Exo', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Lora', serif;
+font-family: 'Phudu', cursive;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.project{
+	background-color:#c3e7f7;
+	height: 20%;
+}
+.skill{
+	height: 800px;
+	background-color: #e3e8b7;
+	margin-top: 10%;
+
+}
+.tb{
+	margin-left: 20%;
+}
+.sk{
+	font-weight: bolder;
+
+}
+.card:hover{
+	zoom: 80%;
+}
